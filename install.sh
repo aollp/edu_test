@@ -43,7 +43,7 @@ cat > ./web-content/index.html << 'EOF'
 <body>
     <div class="container">
         <h1>자동 배포된 웹 페이지</h1>
-        <p>이 페이지는 CI/CD 파이프라인으로 배포되었습니다.</p>
+        <p>이 페이지는 김밥집 할머니와 함께 배포하느라 힘들었지만 좋은 시간이었습니다다.</p>
         <p>배포 시간: $(date)</p>
         <p>현재 시간: <span id="current-time"></span></p>
     </div>
