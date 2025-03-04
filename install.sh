@@ -73,4 +73,4 @@ docker run -d -p 80:80 --name web-container simple-web:latest
 
 # 6. 완료 메시지 및 로그
 echo "웹 서버가 배포되었습니다! ($(date))"
-echo "배포 완료: $(date)" >> /var/log/web-deploy.log
+echo "배포 완료: $(date)" >> ./deploy.log
